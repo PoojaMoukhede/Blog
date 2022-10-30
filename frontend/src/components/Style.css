@@ -1,0 +1,282 @@
+.header {
+    margin-top: 60px;
+  }
+  
+  .titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Lora", serif;
+    color: #444;
+  }
+  
+  .title-small {
+    position: absolute;
+    top: 18%;
+    font-size: 20px;
+  }
+  
+  .title-lrg {
+    position: absolute;
+    top: 20%;
+    font-size: 100px;
+  }
+  
+  .header-Img {
+    width: 100%;
+    height: 450px;
+    margin-top: 80px;
+    object-fit: cover;
+  }
+/* sidebar */
+.sidebar {
+    flex: 3;
+    height: fit-content;
+    margin: 20px;
+    padding-bottom: 30px;
+    background-color: #cbfaf3;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sidebar-Item  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sidebar-title {
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+    border-top: solid 1px #a7a4a4;
+    border-bottom: solid 1px #a7a4a4;
+    text-align: center;
+    font-family: "Varela Round", sans-serif;
+    font-size: 12px;
+    line-height: 19px;
+    color: #222222;
+    font-weight: 600;
+  }
+  
+  .sidebar-Item > img {
+    margin-top: 15px;
+    width: 250px;
+    height: 250px;
+  }
+  
+  .sidebar-Item > p {
+    padding: 30px;
+  }
+  
+  .sidebar-List {
+    list-style-type: none;
+    margin-bottom: 30px;
+  }
+  
+  .sidebar-listItem {
+    display: inline-block;
+    width: 50%;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  
+  .social {
+    margin-top: 15px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sidebarIcon {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+/* posts */
+.posts{
+    flex: 9;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+/* post */
+.post {
+    width: 385px;
+    margin: 0px 25px 40px 25px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .post-img {
+    width: 385px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 7px;
+  }
+  
+  .Info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .postTitle {
+    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  
+  .Time {
+    font-family: "Lora", serif;
+    font-style: italic;
+    font-size: 13px;
+    font-weight: 400;
+    color: #999999;
+    margin-top: 15px;
+  }
+  
+  .desc {
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #444444;
+    margin-top: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+  }
+  /* singlePage */
+  .single_Post {
+    flex: 9;
+  }
+  
+  .Post_Wrapper {
+    padding: 20px;
+    padding-right: 0;
+  }
+  
+  .single_Img {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+  
+  .single_Title {
+    text-align: center;
+    margin: 10px;
+    font-size: 28px;
+    font-family: "Lora", sans-serif;
+  }
+  
+  .edit {
+    float: right;
+    font-size: 16px;
+  }
+  
+  .singlePostIcon {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .PostIcon:first-child {
+    color: teal;
+  }
+  .PostIcon:last-child {
+    color: tomato;
+  }
+  
+  .single_Info {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #be9656;
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+  }
+  
+  .Author{
+    margin-left: 5px;
+  }
+  
+  .description {
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  
+  .description::first-letter {
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  /* navbar */
+  .top {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    z-index: 999;
+    font-family: "Josefin Sans", sans-serif;
+    background-color: #cbfaf3;
+  }
+  .logo{
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+  }
+   .center {
+    flex: 6;
+  }
+  .top-List {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .listItem{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+  }
+  
+  .listItem:hover{
+      color: gray;
+  }
+  .Right {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .top-Img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  
+  .Search {
+    font-size: 18px;
+    color: #666;
+    cursor: pointer;
+  }
+  
+  
